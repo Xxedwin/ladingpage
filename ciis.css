@@ -1,0 +1,154 @@
+body{ 
+	overflow: auto;
+
+}
+.menu{
+	text-align: right;
+	background-color: white;
+	margin-right: 7%;	
+}
+
+a{   
+ color: black;
+ text-decoration:none;
+ font-size: 11px;
+ padding: 25px 10px;   
+ display: inline-block;
+ font-weight:bold;
+} 
+
+a:hover{
+	
+	color:blue;
+}
+
+.ingreso{
+	border-radius: 5px;
+	border-color: white;
+	opacity: 0.5;
+	border:2px solid #000;
+}
+
+.presentation{
+	background-image: url("fondo.png");
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.subtype{
+	color: #fff;
+}
+
+.tittle{
+	color: blue;
+	height: 100px;
+}
+
+.title2 {
+	color: blue;
+}
+
+.content  span{
+	color: #00FFFF;
+}
+
+.content div{
+	height: 120px;
+	width: 300px;
+	margin: 20px 50px;
+	padding: 25px 100px;
+	display: inline-block;
+}
+
+.temario{
+	background-color: #f2f2f2;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.theme{
+	color: black;
+	font-size: 50px;
+ 	padding: 50px 5px;   
+ 	
+}
+
+
+.colaboradores{
+	background-image: url("image.jpg");
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.collaborator{
+	color: white;
+	height: 100px;
+	font-size: 80px;
+ 	
+}
+
+.figure{
+	display: inline-block;
+	letter-spacing: 80px;
+
+}
+
+.Suscripcion{
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 25px 100px;
+}
+
+.Contactos{
+	width: 25%;
+	border:1px solid #ccc;
+	margin: 20px;
+	padding: 20px;
+}
+
+.cuadro{
+	display: inline-block;	
+}
+.Contactos{
+	text-align: right;	
+}
+
+ input,textarea{
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border:1px solid #ccc;
+}
+
+ input:focus, textarea:focus {
+	border:1px solid #1668C4;
+}
+ textarea{
+	resize: vertical;
+	max-height: 300px;
+	min-height: 100px;
+}
+ input[type="submit"]{
+	margin-bottom: 0;
+	background: #1668c4;
+	color: #fff;
+	border:none;
+}
+ input[type="submit"]:hover {
+	background: #4A88F4;
+	cursor: pointer;
+}
