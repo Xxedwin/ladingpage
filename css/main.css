@@ -12,7 +12,6 @@ body{
 	background-color: white;
 	margin-right: 7%;	
 }
-
 a{   
  color: black;
  text-decoration:none;
@@ -21,19 +20,10 @@ a{
  display: inline-block;
  font-weight:bold;
 } 
-
 a:hover{
-	
 	color:blue;
 }
-
-.ingreso{
-	border-radius: 5px;
-	border-color: white;
-	opacity: 0.5;
-	border:2px solid #000;
-}
-
+/*presentation of page*/
 .presentation{
 	background-image: url("../img/fondo.png");
 	background-repeat: no-repeat;
@@ -45,23 +35,15 @@ a:hover{
 	justify-content: center;
 	align-items: center;
 	justify-content: space-around;
-
 }
-
-.subtype{
+.subtitle{
 	color: #fff;
 	text-align: center;
 }
-
-.tittle{
+.title{
 	color: blue;
 }
-.ti{
-	font-size: 120%;
-}
-
-.register{
-        
+.register{        
     background-color: Transparent;
     background-repeat:no-repeat;
     border-color: white;
