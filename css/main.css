@@ -104,7 +104,7 @@ a:hover{
 	display: inline-block;
 }
 /*-------------------------*/
-.colaboradores{
+.collaborator{
 	background-image: url("../img/image.jpg");
 	width: 100vw;
 	height: 100vh;
@@ -115,22 +115,19 @@ a:hover{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.collaborator{
+.title4{
 	color: white;
 	font-size: 50px;
  	display: flex;
  	justify-content: center;
- 	padding: 150px 5px;
- 	
+ 	padding: 150px 5px; 	
 }
 
 .figure{
 	display: inline-block;
 	letter-spacing: 80px;
-
 }
-
-.Suscripcion{
+.suscription{
 	background-color: #f2f2f2;
 	text-align: center;
 	padding: 25px 100px;
@@ -142,7 +139,7 @@ a:hover{
 	display: inline-block;
 
 }
-
+/**/
 .Contactos{
 	
 }
