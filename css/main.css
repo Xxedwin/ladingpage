@@ -55,7 +55,6 @@ a:hover{
     border-radius: 5px;
 	height:50px;
     width:150px;       
-       
 }
 /*content of page*/
 .content  span{
@@ -100,10 +99,13 @@ a:hover{
 .big{
 	background: center;
 	width: 15%;	
-	font-size: 13px;
+	font-size: 17px;
 	display: inline-block;
 }
-/*-------------------------*/
+.title6{
+	
+}
+/*collaborator of page*/
 .collaborator{
 	background-image: url("../img/image.jpg");
 	width: 100vw;
@@ -122,109 +124,153 @@ a:hover{
  	justify-content: center;
  	padding: 150px 5px; 	
 }
-
 .figure{
-	display: inline-block;
 	letter-spacing: 80px;
 }
+/*suscription of the page*/
 .suscription{
 	background-color: #f2f2f2;
-	text-align: center;
-	padding: 25px 100px;
-	
-	background-size: cover;
-
+	width: 100vw;
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
 }
-.sus div{
+.suscription_1 div{
 	display: inline-block;
-
 }
-/**/
-.Contactos{
-	
+.style_email input{
+	margin-bottom: 8px;
+	width: 96%;
+	border:1px solid blue;
+	padding: 9px;
+	margin-right:  20px;
 }
-.titulo{
+.style_suscription input{
+	color: white;
+	background: blue;
+	cursor: pointer;
+	border: none;
+	width: 100%;
+	padding: 10px;
+	margin-left:  20px;
+}
+/*contacts of page*/
+.contacts{
+	width: 100vw;
+	height: 80vh;
+	padding: 80px 25px; 
+	background-size: cover;
+}
+.title5{
 	color: black;
 	font-size: 45px;
  	display: flex;
  	justify-content: center;
  	padding: 25px 5px;
 }
-.ico{
-	display: inline-block;
+.section_content{
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	justify-content: space-around;
 }
-.tex{
-	padding-top: 28%;
-}
-.a{
+.content_1{
+	width: 25%;
 	display: flex;
+	margin: 20px;
 }
-.b{
-	display: flex;
+.content_2{
+	  position: relative;
+ 	  padding-right: 100px;
 }
-.letra{
-
-
-}
-.con{
-	width: 30%;
-	display: flex;
-
-}
-
-.info{
+.information_1{
 	color: blue;
+	margin: 15px;
+}
+.ico{
+	display: flex;
+	margin: 15px;
+}
+.ico_1{
+	padding-right: 10px;
+	position: relative;
+	top: -3px;
+}
+.information_2{
+	padding-top: 28%;
+
+}
+.ico_2{
+	display: flex;
+	margin: 15px;
+}
+.ico_21{
+	padding-right: 10px;
+	position: relative;
+	top: -3px;
 }
 .ingresar{
 	width: 30%;
 }
-.cuadro{
-	
-}
 hr {
 	width: 75%;
-  background-color: black;
-  height: 1px;
+  	background-color: black;
+  	margin:30px;  
 }
-.redes{
+.social_networks1{
 	color: blue;
+	margin: 15px;
+	padding: 0px 20px;
 }
-
 hr {
   background-color: red;
 }
-
- input,textarea{
-	margin-bottom: 20px;
-	width: 100%;
-	padding: 10px;
-	box-sizing: border-box;
-	border:1px solid #ccc;
+.information_3{
+	display: flex;
+	padding: 0px 30px;
 }
-
- input:focus, textarea:focus {
-	border:1px solid #1668C4;
+.ico_3{
+	margin: 5px;
 }
- textarea{
+/*deposit of tha page*/
+.check_in {
+	display: flex;
+	border:none;
+}
+.check_in input{
+	border:1px solid blue;
+	padding: 6px;
+	margin-bottom: 8px;
+}
+.margin_d input{
+ 	  margin-right:  5px;
+}
+.margin_l{
+	margin-left:  5px;
+}
+.check_in1 input, .check_in2 textarea{
+	margin-bottom: 8px;
+	width: 96%;
+	border:1px solid blue;
+	padding: 6px;
+}
+.check_in2 textarea{
 	resize: vertical;
 	max-height: 300px;
 	min-height: 100px;
 }
- input[type="submit"]{
-	margin-bottom: 0;
-	background: #1668c4;
-	color: #fff;
-	border:none;
-}
- input[type="submit"]:hover {
-	background: #4A88F4;
+.submit input{	
+	color: white;
+	background: blue;
 	cursor: pointer;
+	border: none;
+	width: 25%;
+	padding: 6px;
 }
-
+/*map of the page*/
 .map{
 	width: 100vw;
 	height: 100vh;
