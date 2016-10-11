@@ -13,7 +13,7 @@ nav{
 	display: flex;
 	justify-content: space-between;
 	position: fixed;
-	width: 100%; 
+	width: 98.9vw; 
 	z-index: 100;
 }
 nav div{
@@ -43,7 +43,7 @@ a:hover{
 	background-image: url("../img/fondo.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 100vw;
+	width: 98.9vw;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;	
@@ -84,7 +84,7 @@ a:hover{
 	justify-content: space-around;
 	align-items: center;
 	background-size: cover;
-	width: 100vw;
+	width: 98.9vw;
 	height: 100vh;
 }
 .content  span{
@@ -104,7 +104,7 @@ a:hover{
 .theme{
 	background-color: #f2f2f2;
 	background-size: cover;
-	width: 100vw;
+	width: 98.9vw;
 	height: 100vh;
 }
 .title3{
@@ -137,7 +137,7 @@ a:hover{
 /*collaborator of page*/
 .collaborator{
 	background-image: url("../img/image.jpg");
-	width: 100vw;
+	width: 98.9vw;
 	height: 60vh;
 	display: flex;
 	flex-direction: column;
@@ -162,7 +162,7 @@ a:hover{
 /*suscription of the page*/
 .suscription{
 	background-color: #f2f2f2;
-	width: 100vw;
+	width: 98.9vw;
 	height: 40vh;
 	display: flex;
 	justify-content: center;
@@ -173,7 +173,7 @@ a:hover{
 	font-size: 150%;
 }
 .style_email input{	
-	width: 100%;
+	width: 98.9vw;
 	border:1px solid #00AAD4;
 	padding: 20px;
 	margin-right: 10px;
@@ -186,7 +186,7 @@ a:hover{
 	background: #00AAD4;
 	cursor: pointer;
 	border: none;
-	width: 100%;
+	width: 98.9vw;
 	padding: 20px;
 	margin-left: 10px;
 	width:180px;
@@ -198,9 +198,9 @@ a:hover{
 }
 /*contacts of page*/
 .contacts{
-	width: 100vw;
+	width: 90vw;
 	height: 80vh;
-	padding: 80px 25px; 
+	padding: 40px 25px; 
 	background-size: cover;
 }
 .title5{
@@ -324,13 +324,13 @@ hr {
 
 /*map of the page*/
 .map iframe{
-	width: 100vw;
+	width: 98.5vw;
 	height: 80vh;
 }
 .foot{
 	background-color: #1E2630;
 	color: #FFFFFF;
-	width: 100vw;
+	width: 98.9vw;
 	height: 20vh;
 	display: flex;
 	justify-content: center;
