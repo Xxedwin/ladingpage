@@ -12,7 +12,7 @@ nav{
 	display: flex;
 	justify-content: space-between;
 	position: fixed;
-	width: 98.9vw; 
+	width: 98.8vw; 
 	z-index: 100;
 }
 nav div{
@@ -42,7 +42,7 @@ a:hover{
 	background-image: url("../img/fondo.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 98.9vw;
+	width: 98.8vw;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;	
@@ -86,7 +86,7 @@ a:hover{
 	justify-content: space-around;
 	align-items: center;
 	background-size: cover;
-	width: 98.9vw;
+	width: 98.8vw;
 	height: 100vh;
 }
 .content  span{
@@ -106,7 +106,7 @@ a:hover{
 .theme{
 	background-color: #f2f2f2;
 	background-size: cover;
-	width: 98.9vw;
+	width: 98.8vw;
 	height: 100vh;
 }
 .title3{
@@ -139,7 +139,7 @@ a:hover{
 /*collaborator of page*/
 .collaborator{
 	background-image: url("../img/image.jpg");
-	width: 98.9vw;
+	width: 98.8vw;
 	height: 60vh;
 	display: flex;
 	flex-direction: column;
@@ -164,7 +164,7 @@ a:hover{
 /*suscription of the page*/
 .suscription{
 	background-color: #f2f2f2;
-	width: 98.9vw;
+	width: 98.8vw;
 	height: 40vh;
 	display: flex;
 	justify-content: center;
@@ -175,7 +175,7 @@ a:hover{
 	font-size: 150%;
 }
 .style_email input{	
-	width: 98.9vw;
+	width: 98.8vw;
 	border:1px solid #00AAD4;
 	padding: 20px;
 	margin-right: 10px;
@@ -188,7 +188,7 @@ a:hover{
 	background: #00AAD4;
 	cursor: pointer;
 	border: none;
-	width: 98.9vw;
+	width: 98.8vw;
 	padding: 20px;
 	margin-left: 10px;
 	width:180px;
@@ -332,7 +332,7 @@ hr {
 .foot{
 	background-color: #1E2630;
 	color: #FFFFFF;
-	width: 98.9vw;
+	width: 98.8vw;
 	height: 20vh;
 	display: flex;
 	justify-content: center;
@@ -416,7 +416,7 @@ hr {
 	.theme{
 	background-color: #f2f2f2;
 	background-size: cover;
-	width: 98.9vw;
+	width: 98.8vw;
 	height: 100vh;
 	}
 	.title3{
@@ -435,7 +435,7 @@ hr {
 	.big{
 		display:block;
 		text-align: center;
-		width: 100%;
+		width: 98.8vw;
 		font-size: 35px;
 
 		
@@ -451,7 +451,7 @@ hr {
 	/*colaborador*/
 	.collaborator{
 	background-image: url("../img/image.jpg");
-	width: 98.9vw;
+	width: 98.8vw;
 	height: 60vh;
 	display: flex;
 	flex-direction: column;
@@ -461,7 +461,7 @@ hr {
 	background-size: cover;
 	}
 	.collaborator article{
-		width: 100%;
+		width: 98.8vw;
 	 	height: 90%;
 	 	text-align: center;
 	}
@@ -494,7 +494,7 @@ hr {
 
 }
 .suscription_1 {
-	width: 100%;
+	width: 98.8vw;
 	height: 100%;
 	display: flex;
 	flex-direction: column;	
@@ -510,7 +510,7 @@ hr {
 }
 .style_email input{	
 	display: block;
-	width: 98.9vw;
+	width: 98.8vw;
 	border:1px solid #00AAD4;
 	padding: 20px;
 	margin-right: 10px;
@@ -518,15 +518,14 @@ hr {
 	height: 21px;
 	font-size: 50px;
 
-	width: 100%;
-	height: 100%;
+	
 }
 .style_suscription input{
 	color: white;
 	background: #00AAD4;
 	cursor: pointer;
 	border: none;
-	width: 98.9vw;
+	width: 98.8vw;
 	padding: 20px;
 	margin-left: 10px;
 	width:180px;
@@ -535,7 +534,7 @@ hr {
 	position: relative;
 	top: 3px;
 
-	width: 100%;
+	width: 98.8vw;
 	height: 100%;
 
 }
@@ -647,7 +646,7 @@ hr {
 .foot{
 	background-color: #1E2630;
 	color: #FFFFFF;
-	width: 98.9vw;
+	width: 98.8vw;
 	height: 20vh;
 	display: flex;
 	justify-content: center;
