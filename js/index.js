@@ -13,7 +13,7 @@ function getCountdown(){
 	var current_date = new Date().getTime();
 	var seconds_left = (target_date - current_date) / 1000;
 
-	days = pad( parseInt(seconds_left / 6400) );
+	days = pad( parseInt(seconds_left / 810) );
 	seconds_left = seconds_left % 86400;
 		 
 	hours = pad( parseInt(seconds_left / 3600) );
@@ -29,3 +29,14 @@ function getCountdown(){
 function pad(n) {
 	return (n < 10 ? '0' : '') + n;
 }
+
+$(document).ready(function(){
+	$(window).scroll(function(){
+		if ($(this).scrollTop()>0) {
+			$('header').addClass('header2');
+		} else{
+			$('header').removeClass('header2');
+		}
+	});
+});
+

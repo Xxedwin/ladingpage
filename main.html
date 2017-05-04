@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-		<title>XVII Congreso Internacional de Informatica y Sistemas</title>
+		<title>XVIII Congreso Internacional de Informatica y Sistemas</title>
         <meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
         <link rel="stylesheet"  type="text/css" href="css/main.css" />    
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		
 </head>
 <body>
+<!--<div style=" height: 100%; width: 100%; overflow-y:auto; ">-->
 <div class="landingpage" id="landingpage">
 	<!--header of the page-->
-	<header>
-		<nav>
-			<div>
-				<img  src="icon/ciis.png" width="110" height="40">
+	<header class="header-ciis">
+		<nav class="nav-ciis">
+			<div class="img-ciis">
+				<img  src="icon/ciis.png">
 			</div>
+			
+				<input type="checkbox" id="btn-menu">
+				<label class="menu-ciis" for="btn-menu" align=center>MENU</label>
+			
 			<ul class="menu">
-				<li><a href="#presentation">INICIO</a></li>
-				<li><a href="#content">CHARLAS</a></li>
-				<li><a href="#theme">TALLERES</a></li>
-				<li><a href="#collaborator">COLABORADORES</a></li>
-				<li><a href="#suscription">SUSCRIBIRSE</a></li>
-				<li><a href="#contacts">CONTACTANOS</a></li>
-				<li><a href="#map">UBICANOS</a></li>
+				<li><a class="menu-ciis" href="#presentation">INICIO</a></li>
+				<li><a class="menu-ciis" href="#content">CHARLAS</a></li>
+				<li><a class="menu-ciis" href="#theme">TALLERES</a></li>
+				<li><a class="menu-ciis" href="#collaborator">COLABORADORES</a></li>
+				<li><a class="menu-ciis" href="#suscription">SUSCRIBIRSE</a></li>
+				<li><a class="menu-ciis" href="#contacts">CONTACTANOS</a></li>
+				<li><a class="menu-ciis" href="#map">UBICANOS</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -52,13 +57,13 @@
 	<!--content of  the page-->
 	<section class="content" id="content">
 		<div class="tema">
-			<h1 class="title2">Conoce un <br><span>poco</span><br> mas</h1>
+			<h1 class="title2">Conoce un <br><span>  poco <br> </span>mas</h1>
 			<p>
 			 <blockquote><br><br> Congreso Internacional de Sistemas , es un evento tecnologico que se da a conocer en cada año, con nuevos temas de ultima acontecimientos importantes. Los ponentes son de primera calidad y con bastante experiencia.</blockquote>
 			</p>
 		</div>
 		<div class="video">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/YwoAeiPQBAE" frameborder="0" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/LbHw9NdCcyM" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</section>
 	<!--theme of  the page-->	
@@ -68,7 +73,7 @@
 		
 		<ul class="Information">
 			<div class="big">
-				<img class="border1" src="icon/discharge.png" width="10" height="10">
+				<img class="border1" src="icon/discharge.png" >
 				<span ><br><b>Big Data</b></span>
 				<p><br> Es el estudio de la base de datos en cantidades grandes, se manejan sofware especializados para manejar estos datos.</p>
 			</div>
@@ -95,9 +100,9 @@
 			<h2 class="title4">Colaboradores</h2>
 		</article>
 		<ul class="figure">
-			<li><img src="img/1.png" width="100" height="50"/></li>
-			<li><img src="img/2.png" width="100" height="50"/></li>
-			<li><img src="img/3.png" width="100" height="50"/></li>
+			<li><img src="img/1.png" /></li>
+			<li><img src="img/2.png" /></li>
+			<li><img src="img/3.png" /></li>
 		</ul>
 	</section>
 	<!--suscription of the page-->
@@ -144,13 +149,13 @@
 					</div>
 				  	<div class="social_networks">
 						<div class="social_networks1">
-							<h3>Redes Sociales</h3>
+							<h3 class="networking-ciis" >Redes Sociales</h3>
 						</div>
 						<ul class="information_3">
 							<li class="ico_3"><img src="icon/google.png" width="15" height="15"/></li>
 							<li class="ico_3"><img src="icon/youtube.png" width="15" height="15"/></li>
 							<li class="ico_3"><img src="icon/pinterest.png" width="15" height="15"/></li>
-							<li class="ico_3"><img src="icon/fb.png" width="15" height="15"/></li>
+							<li class="ico_3"><a href="https://www.facebook.com/profile.php?id=169105266515410"><img src="icon/fb.png" width="15" height="15"/></a></li>
 						</ul>
 
 				  	</div>
@@ -179,14 +184,12 @@
 			</div>			
 	</section>
 	<!--map of the page-->
-	<section class="map" id="map">
-		<iframe src="https://www.google.com/maps/d/u/0/embed?mid=10-HNZbBoMMylQjp71b0Xpa6gRVA" width="100%" height="80%"></iframe>
-		<div class="foot">
-			<p>	Diseñado y desarrollado por <a href="http://www.novext.com">NOVEXT TEAM</a>
-			</p>
-		</div>
+	<section class="map" id="map">		
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13377.79081011226!2d-70.249157!3d-18.025352000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbd7b1220077c70b!2sUniversidad+Nacional+Jorge+Basadre+Grohmann!5e1!3m2!1sen!2sus!4v1493613323744" width="100%" height="80%"></iframe>		
 	</section>
 </div>
+</div>
+
 </body>
 </html>
 
